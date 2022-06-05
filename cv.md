@@ -27,3 +27,20 @@ function getMiddle(s) {
   return (s.length % 2) ? s[Math.floor(middle)] : s.slice(middle - 1, middle + 1);
 }
 ```
+
+## Experience
+
+## Education
+* **University**:
+    + Kalmyk State University. The Faculty of Economics
+* **Courses**:
+    + [DEULA-Nienburg](https://www.deula-nienburg.de/ru/). Buchhaltung und verkauf der endproduktion auf den betrieben in Deutschland
+    + [Stepik. Поколение Python: Курс для начинающих](https://stepik.org/course/58852/syllabus)
+    + [Stepik. Поколение Python: Курс для продвинутых](https://stepik.org/course/68343/syllabus)
+    + [The Modern JavaScript Tutorial](https://javascript.info)
+	+ [RS School. JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) in progress
+
+## Languages
+* Russian - native
+* English - A1 (A2 in progress)
+* German - A1
