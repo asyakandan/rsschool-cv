@@ -32,7 +32,7 @@ function getMiddle(s) {
 
 ## Education
 * **University**:
-    + Kalmyk State University. The Faculty of Economics
+    + Kalmyk State University. The Faculty of Economics. Economist with the major in Accounting, analysis and audit
 * **Courses**:
     + [DEULA-Nienburg](https://www.deula-nienburg.de/ru/). Buchhaltung und verkauf der endproduktion auf den betrieben in Deutschland
     + [Stepik. Поколение Python: Курс для начинающих](https://stepik.org/course/58852/syllabus)
