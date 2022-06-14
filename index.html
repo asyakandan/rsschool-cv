@@ -5,6 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./assets/js/highlight/styles/a11y-dark.min.css" title="dark">
+	<link rel="stylesheet" href="./assets/js/highlight/styles/a11y-light.min.css" title="light" disabled>
+	<script src="./assets/js/highlight/highlight.min.js"></script>
+	<script src="./script.js"></script>
 	<title>CV Asya Kandan</title>
 </head>
 <body>
@@ -37,13 +41,84 @@
 						<li class="contacts__item">@asyakandan</li>
 					</ul>
 				</section>
-				
+
+				<section class="education" id="education">
+					<h2 class="h2 education__header">Education</h2>
+					<ul class="education__list">
+						<li class="education__item">University:
+							<ul class="education__list">
+								<li class="education__item"><a class="education__link" href="https://www.kalmgu.ru" target="_blank">Kalmyk State University.</a> The Faculty of Economics. Economist with the major in Accounting, analysis and audit</li>
+							</ul>
+						</li>
+						<li class="education__item">Courses:
+							<ul class="education__list">
+								<li class="education__item"><a class="education__link" href="https://www.deula-nienburg.de/ru/" target="_blank">DEULA-Nienburg.</a> Buchhaltung und verkauf der endproduktion auf den betrieben in Deutschland</li>
+								<li class="education__item"><a class="education__link" href="https://stepik.org/course/58852/syllabus" target="_blank">Stepik. Поколение Python: Курс для начинающих</a></li>
+								<li class="education__item"><a class="education__link" href="https://stepik.org/course/68343/syllabus" target="_blank">Stepik. Поколение Python: Курс для продвинутых</a></li>
+								<li class="education__item"><a class="education__link" href="https://learn.javascript.ru" target="_blank">Современный учебник JavaScript</a></li>
+								<li class="education__item"><a class="education__link" href="https://rs.school/js-stage0/" target="_blank">RS School. JavaScript/Front-end. Stage 0</a> in progress</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<section class="languages" id="languages">
+					<h2 class="h2 languages__header">Languages</h2>
+					<ul class="languages__list">
+						<li class="languages__item">Russian - native</li>
+						<li class="languages__item">English - A1 (A2 in progress)</li>
+						<li class="languages__item">German - A1</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="right-side">
+				<h1 class="h1">Asya Kandan</h1>
+				<div class="work-position">
+					<p class="work-position__text">RSS Student</p>
+				</div>
+
+				<section class="about-me" id="about-me">
+					<h2 class="h2 about-me__header">About me</h2>
+					<p class="about-me__text">I'm 29 years old. I love my cat, her name's Cookie. I lead active lifestyle. I like to study and learn something new, now I learn Front-end development. Extremely motivated for career change goal.</p>
+				</section>
+
+				<section class="skills" id="skills">
+					<h2 class="h2 skills__header">Skills</h2>
+					<ul class="skills__list">
+						<li class="skills__item">Python 3 basics, Django basics</li>
+						<li class="skills__item">SQLite</li>
+						<li class="skills__item">HTML 5, CSS 3 / Sass / SCSS</li>
+						<li class="skills__item">BEM-naming</li>
+						<li class="skills__item">JavaScript basics</li>
+						<li class="skills__item">Git, GitKraken</li>
+					</ul>
+				</section>
+
+				<section class="code-example" id="code-example">
+					<h2 class="h2 code-example__header">Code example</h2>
+					<p class="code-example__text">
+						<a class="code-example__link" href="https://www.codewars.com/kata/56747fd5cb988479af000028" target="_blank">Get the Middle Character</a>
+					</p>
+					<p class="code-example__text">
+						You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+					</p>
+					<pre>
+						<code>
+function getMiddle(s) {
+	let middle = s.length / 2;
+
+	return (s.length % 2) ? s[Math.floor(middle)] : s.slice(middle - 1, middle + 1);
+}
+						</code>
+					</pre>
+				</section>
+
 			</div>
 		</main>
 
 	</div>
 
-	
 
 </body>
 </html>
