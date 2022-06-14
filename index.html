@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./style.css">
 	<link rel="stylesheet" href="./assets/js/highlight/styles/a11y-dark.min.css" title="dark">
 	<link rel="stylesheet" href="./assets/js/highlight/styles/a11y-light.min.css" title="light" disabled>
@@ -19,7 +22,7 @@
 					<li class="header__item"><a class="header__link" href="#contacts">Contacts</a></li>
 					<li class="header__item"><a class="header__link" href="#about-me">About me</a></li>
 					<li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
-					<li class="header__item"><a class="header__link" href="#code">Code example</a></li>
+					<li class="header__item"><a class="header__link" href="#code-example">Code example</a></li>
 					<li class="header__item"><a class="header__link" href="#projects">Projects</a></li>
 					<li class="header__item"><a class="header__link" href="#work-experience">Work experience</a></li>
 					<li class="header__item"><a class="header__link" href="#education">Education</a></li>
@@ -36,8 +39,8 @@
 				<section class="contacts" id="contacts">
 					<h2 class="h2 contacts__header">Contacts</h2>
 					<ul class="contacts__list">
-						<li class="contacts__item"><a class="contacts__link" href="https://www.google.com/maps/place/%D0%AD%D0%BB%D0%B8%D1%81%D1%82%D0%B0,+%D0%A0%D0%B5%D1%81%D0%BF.+%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D0%BA%D0%B8%D1%8F/@46.328817,44.2708645,12z/data=!3m1!4b1!4m5!3m4!1s0x4101d18d723fcdcf:0xc89feef7b5786df5!8m2!3d46.3154883!4d44.2794011?hl=ru" target="_blank">Elista, Russia</a></li>
-						<li class="contacts__item"><a class="contacts__link" href="mailto:asyakandan@gmail.com">asyakandan@gmail.com</a></li>
+						<li class="contacts__item"><a class="contacts__link" href="https://www.google.com/maps/place/%D0%AD%D0%BB%D0%B8%D1%81%D1%82%D0%B0,+%D0%A0%D0%B5%D1%81%D0%BF.+%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D0%BA%D0%B8%D1%8F/@46.328817,44.2708645,12z/data=!3m1!4b1!4m5!3m4!1s0x4101d18d723fcdcf:0xc89feef7b5786df5!8m2!3d46.3154883!4d44.2794011?hl=ru" target="_blank" title="Go to Google Maps">Elista, Russia</a></li>
+						<li class="contacts__item"><a class="contacts__link" href="mailto:asyakandan@gmail.com" title="Email to Asya Kandan">asyakandan@gmail.com</a></li>
 						<li class="contacts__item">@asyakandan</li>
 					</ul>
 				</section>
@@ -98,7 +101,7 @@
 				<section class="code-example" id="code-example">
 					<h2 class="h2 code-example__header">Code example</h2>
 					<p class="code-example__text">
-						<a class="code-example__link" href="https://www.codewars.com/kata/56747fd5cb988479af000028" target="_blank">Get the Middle Character</a>
+						<a class="code-example__link" href="https://www.codewars.com/kata/56747fd5cb988479af000028" target="_blank" title="Go to Codewars">Get the Middle Character</a>
 					</p>
 					<p class="code-example__text">
 						You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
@@ -114,11 +117,27 @@ function getMiddle(s) {
 					</pre>
 				</section>
 
+				<section class="work-experience" id="work-experience">
+					<h2 class="h2 work-experience__header">Work experience</h2>
+				</section>
+
+				<section class="projects" id="projects">
+					<h2 class="h2 projects__header">Projects</h2>
+					<ul class="projects__list">
+						<li class="projects__item"><a class="projects__link" href="/" title="CV Asya Kandan">CV Asya Kandan</a></li>
+					</ul>
+				</section>
 			</div>
 		</main>
 
+		<footer class="footer">
+			<a class="github" href="https://github.com/asyakandan" target="_blank" title="My GitHub">GitHub</a>
+			<span class="">2022</span>
+			<a class="rss" href="https://rs.school/js/" target="_blank" title="The Rolling Scope School">
+				<img src="./assets/svg/rs_school_js.svg" alt="RSS logo" width="73" height="26">
+			</a>
+		</footer>
+
 	</div>
-
-
 </body>
 </html>
