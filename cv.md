@@ -53,3 +53,8 @@ function persistence(num) {
   + [Stepik. Поколение Python: Курс для продвинутых](https://stepik.org/course/68343/syllabus)
   + [The Modern JavaScript Tutorial](https://javascript.info) in progress
   + [RS School. JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) in progress
+
+## Languages
+* Russian - native
+* English - A1 (A2 in progress)
+* German - A1
