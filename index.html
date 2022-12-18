@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
 	<title>CV Asya Kandan</title>
 </head>
 <body>
@@ -78,7 +79,65 @@
 					</ul>
 				</section>
 			</div>
+
+			<div class="right-side">
+				<h1 class="header__title">Hi, I'm Asya!</h1>
+				<h3 class="header__subtitle">RSS Student</h3>
+				<section class="about-me" id="about-me">
+					<h2 class="about-me__title title">About Me</h2>
+					<p class="about-me__text">
+						I'm 29 years old. I worked in Russian Agricultural Bank. Extremely motivated for career change goal. I learn Front-end development.
+					</p>
+				</section>
+
+				<section class="code-example" id="code-example">
+					<h2 class="code-example__title title">Code Example</h2>
+					<p class="code-example__text">
+						<a class="code-example__link" href="https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec" target="_blank">Persistent Bugger:</a>  Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+					</p>
+					<pre class="code-example__code">
+function persistence(num) {
+  let str = '' + num;
+  let counter = 0;
+
+  while (str.length != 1) {
+    let result = 1;
+    counter++;
+
+    for (let el of str) {
+      result *= el;
+    }
+
+    result = '' + result;
+
+    [str, result] = [result, str];
+  }
+
+  return counter;
+}
+					</pre>
+				</section>
+
+				<section class="projects" id="projects">
+					<h2 class="projects__title title">Projects</h2>
+					<ul class="projects__list list">
+						<li class="projects__item"><a class="projects__link" href="https://asyakandan.github.io/rsschool-cv/" target="_blank">My CV</a></li>
+					</ul>
+				</section>
+			</div>
 		</main>
+
+		<footer class="footer">
+			<ul class="footer__list list">
+				<li class="footer__item"><a class="footer__link" href="https://github.com/asyakandan" target="_blank">
+					<img class="footer__img" src="./assets/svg/github.svg" alt="GitHub Logo">
+				</a></li>
+				<li class="footer__item">2022</li>
+				<li class="footer__item"><a class="footer__link" href="https://rs.school/js/" target="_blank">
+					<img class="footer__img" src="./assets/svg/rs_school_js.svg" alt="RS Logo">
+				</a></li>
+			</ul>
+		</footer>
 	</div>
 </body>
 </html>
