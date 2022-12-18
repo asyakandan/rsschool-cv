@@ -1,3 +1,39 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
 .container {
-	background-color: thistle;
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.main {
+	display: flex;
+}
+
+.footer__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+}
+
+.footer__img {
+	height: 48px;
 }
